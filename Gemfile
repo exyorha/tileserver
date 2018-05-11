@@ -5,3 +5,8 @@ group :development do
   gem 'capistrano-rbenv', require: false
   gem 'capistrano-bundler', '~> 1.3', require: false
 end
+
+gem 'sinatra', require: 'sinatra/base'
+gem 'sinatra-contrib'
+gem 'sqlite3'
+gem 'pond'
