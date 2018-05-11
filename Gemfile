@@ -9,4 +9,4 @@ end
 gem 'sinatra', require: 'sinatra/base'
 gem 'sinatra-contrib'
 gem 'sqlite3'
-gem 'pond'
+

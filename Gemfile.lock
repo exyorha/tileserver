@@ -23,7 +23,6 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (4.2.0)
-    pond (0.3.0)
     rack (2.0.5)
     rack-protection (2.0.1)
       rack
@@ -56,7 +55,6 @@ DEPENDENCIES
   capistrano (~> 3.10)
   capistrano-bundler (~> 1.3)
   capistrano-rbenv
-  pond
   sinatra
   sinatra-contrib
   sqlite3
