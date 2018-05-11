@@ -53,7 +53,7 @@ module TileServer
 
       tile = nil
 
-      @db.execute "SELECT tile_data FROM tiles WHERE zoom_level = ? AND tile_column = ? AND tile_row = ?", [ Integer(params[:z]), Integer(params[:x]), Integer(params[:y]) ] do |(data)|
+      @db.execute "SELECT tile_data FROM tiles WHERE zoom_level = ? AND tile_column = ? AND tile_row = ?", [ zoom, x, y ] do |(data)|
 		tile = data
 	  end
 	  
